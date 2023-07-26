@@ -25,6 +25,7 @@ main {
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
     gap: 20px;
+    margin-bottom: 40px;
 }
 .data-face{
     width: 50px;
@@ -55,4 +56,13 @@ main {
 }
 .btn:focus{
     outline: none;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+p{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
 }
